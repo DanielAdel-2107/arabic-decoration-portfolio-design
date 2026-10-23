@@ -8,7 +8,7 @@ const toArabicDigits = (n: number) =>
 
 const whatsappFor = (title: string) =>
   `${contact.whatsappHref}?text=${encodeURIComponent(
-    `السلام عليكم، أود الاستفسار عن خدمة ${title} في جدة.`
+    `السلام عليكم، أود الاستفسار عن تنفيذ خدمة ${title} في جدة ومناقشة التفاصيل.`
   )}`
 
 export function Services() {
@@ -29,7 +29,7 @@ export function Services() {
             </h2>
           </div>
           <p className="max-w-md leading-relaxed text-sm md:text-base text-muted-foreground md:text-right">
-            من تفاصيل الجدران والأسقف إلى الواجهات الخارجية، استكشف الخدمات واختر ما يناسب مشروعك مع إمكانية المعاينة المباشرة في جدة.
+            من تفاصيل الأسقف والجدران إلى الواجهات الخارجية؛ استكشف مجالات عملنا في جدة، واختر ما يلائم مساحتك مع إمكانية المعاينة ومناقشة خطوات التنفيذ مباشرة.
           </p>
         </div>
 
@@ -89,7 +89,7 @@ export function Services() {
                       aria-label={`ناقش خدمة ${s.title} عبر واتساب`}
                     >
                       <WhatsAppIcon className="size-4" />
-                      <span>ناقش الخدمة</span>
+                      <span>استفسر عن التنفيذ</span>
                       <ArrowLeft className="size-3.5 transition-transform duration-200 group-hover:-translate-x-1" aria-hidden="true" />
                     </a>
 

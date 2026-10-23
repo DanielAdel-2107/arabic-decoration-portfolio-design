@@ -24,14 +24,15 @@ export function Hero() {
             </h1>
 
             <p className="mt-5 max-w-md text-base leading-relaxed text-muted-foreground md:text-lg">
-              تشطيبات وتركيب ديكورات داخلية وخارجية — جبس بورد، خشب وبديله، بديل رخام، وتكسيات واجهات —
-              بتنفيذ دقيق في الفواصل والزوايا والإضاءة المخفية.
+              تشطيبات وتركيب ديكورات داخلية وخارجية في جدة — جبس بورد، بديل خشب، بديل رخام، وشيب بورد وتكسيات واجهات. من فكرتك إلى شكل تشوفه على أرض الواقع، بتنفيذ متقن لكل تفصيلة.
             </p>
           </div>
 
           <div className="flex flex-col gap-3.5 sm:flex-row sm:items-center">
             <a
-              href={contact.whatsappHref}
+              href={`${contact.whatsappHref}?text=${encodeURIComponent(
+                'السلام عليكم، أود الاستفسار عن أعمال التشطيبات والديكور في جدة.'
+              )}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2.5 rounded-xl bg-ink px-7 py-3.5 text-sm md:text-base font-semibold text-ink-foreground shadow-md transition-all duration-300 hover:bg-brass hover:text-ink hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brass"
@@ -44,7 +45,7 @@ export function Hero() {
               href="#portfolio"
               className="group inline-flex items-center justify-center gap-2 rounded-xl border border-border bg-card/60 px-7 py-3.5 text-sm md:text-base font-semibold text-foreground shadow-xs transition-all duration-300 hover:border-foreground/40 hover:bg-card hover:shadow-md"
             >
-              <span>شاهد الأعمال</span>
+              <span>شاهد أعمالنا الحقيقية</span>
               <ArrowLeft className="size-4 transition-transform duration-200 group-hover:-translate-x-1" aria-hidden="true" />
             </a>
           </div>
@@ -83,7 +84,7 @@ export function Hero() {
             <div className="flex flex-col justify-end rounded-2xl border border-ink-foreground/15 bg-ink p-6 text-ink-foreground shadow-lg transition-all duration-300 hover:border-brass/40">
               <p className="font-display text-5xl font-bold leading-none text-brass lg:text-6xl">٧</p>
               <p className="mt-2.5 text-xs md:text-sm leading-relaxed text-ink-foreground/80">
-                مجالات تنفيذ متخصصة، من السقف إلى الواجهة.
+                مجالات تنفيذ متخصصة في جدة، من السقف إلى الواجهة.
               </p>
             </div>
           </div>
