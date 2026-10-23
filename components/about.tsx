@@ -32,7 +32,7 @@ export function About() {
           <p className="mt-2 text-lg text-muted-foreground">{contact.profession}</p>
 
           <div className="mt-10 flex items-end gap-6 border-y border-foreground/15 py-8">
-            <p className="font-display text-8xl font-bold leading-[0.8] text-primary md:text-9xl">٥</p>
+            <p className="font-display text-8xl font-bold leading-[0.8] text-primary md:text-9xl">١٥</p>
             <p className="pb-1 text-lg leading-relaxed">
               سنوات من العمل
               <br />

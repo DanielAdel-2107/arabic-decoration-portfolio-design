@@ -11,7 +11,7 @@ export function Hero() {
           <div>
             <div className="mb-6 inline-flex items-center gap-2.5 rounded-full border border-border/70 bg-card/70 px-4 py-1.5 text-xs font-medium text-foreground/80 shadow-xs backdrop-blur-xs">
               <span className="size-2 rounded-full bg-brass" aria-hidden="true" />
-              <span>جدة · خبرة ٥ سنوات</span>
+              <span>جدة · خبرة ١٥ سنوات</span>
             </div>
 
             <h1
